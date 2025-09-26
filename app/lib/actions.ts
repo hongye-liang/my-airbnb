@@ -42,3 +42,10 @@ export async function getUserId() {
     const jar = await cookies();                 // ✅ await
     return jar.get('session_userid')?.value ?? null;
 }
+
+export async function getAccessToken() {
+    const accessToken = await cookies();
+    return accessToken.get('session_access_token')?.value;
+    // let accessToken = cookies().get('session_access_token')?.value;
+    // return accessToken;
+}
