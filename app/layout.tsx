@@ -6,16 +6,9 @@ import Navbar from "./components/navbar/Navbar";
 import LoginModal from "./components/modals/LoginModal";
 import SignupModal from "./components/modals/SignupModal";
 
-const inter = Inter({ subsets: ["latin"] });
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
+import AddPropertyModal from "./components/modals/AddPropertyModal";
 
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Airbnb",
@@ -47,6 +40,7 @@ export default function RootLayout({
 
         <LoginModal />
         <SignupModal />
+        <AddPropertyModal />
       </body>
     </html>
   );
