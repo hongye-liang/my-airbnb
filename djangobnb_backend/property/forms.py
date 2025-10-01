@@ -14,5 +14,6 @@ class PropertyForm(ModelForm):
             'guests',
             'country',
             'country_code',
+            'category',
             'image'
         )
