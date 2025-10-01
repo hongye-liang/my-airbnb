@@ -67,14 +67,17 @@ const AddPropertyModal = () => {
             formData.append('country_code', dataCountry.value);
             formData.append('image', dataImage);
 
-            console.log('testing1');
+            console.log('--- FormData preview ---');
+            for (const [k, v] of formData.entries()) {
+                console.log(k, v instanceof File ? `(file ${v.name})` : v);
+            }
+
             const response = await apiService.post('/api/properties/create/', formData);
-            console.log('testing2');
 
             if (response.success) {
                 console.log('Success :)))');
 
-                router.push('/');
+                router.push('/?added=true');
 
                 addPropertyModal.close()
             } else {
