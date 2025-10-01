@@ -1,6 +1,17 @@
+'use client';
+
+import useSearchModal from "@/app/hooks/useSearchModal";
+import SelectCountry, {SelectCountryValue} from "../forms/SelectCountry";
+import { useState } from "react";
+
 const SearchFilters = () => {
+    const searchModal = useSearchModal();
+
     return (
-        <div className="h-[48px] lg:h-[64] flex flex-row items-center justify-between border rounded-full">
+        <div 
+            onClick={() => searchModal.open('location')}
+            className="h-[48px] lg:h-[64] flex flex-row items-center justify-between border rounded-full"
+        >
             <div className="hidden lg:block">
                 <div className="flex flex-row items-center justify-between">
                     <div className="cursor-pointer w-[250px] h-[48px] lg:h-[64] px-8 flex flex-col rounded-full hover:bg-gray-100">
