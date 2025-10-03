@@ -88,7 +88,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "http://127.0.0.1:8000",
     "http://157.230.130.14",
-    "http://157.230.130.14:1337",
+    "http://157.230.130.14:1337"
 ]
 
 CORS_TRUSTED_ORIGINS = [
@@ -97,16 +97,16 @@ CORS_TRUSTED_ORIGINS = [
     "http://localhost:8000",
     "http://127.0.0.1:8000",
     "http://157.230.130.14",
-    "http://157.230.130.14:1337",
+    "http://157.230.130.14:1337"
 ]
 
-CORS__ORIGINS_WHITELIST = [
+CORS_ORIGINS_WHITELIST = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
     "http://157.230.130.14",
-    "http://157.230.130.14:1337",
+    "http://157.230.130.14:1337"
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
