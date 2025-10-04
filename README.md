@@ -14,11 +14,11 @@ pnpm dev
 bun dev
 ```
 
-DjangoBnB
+# DjangoBnB
 
-DjangoBnB is a full-stack Airbnb-style web application built with a Next.js/React + Tailwind CSS frontend and a Django + Django REST Framework backend. It provides dynamic property listings, authentication, booking, and real-time messaging in a production-ready setup.
+DjangoBnB is a full-stack Airbnb-style web application built with a Next.js/React + Tailwind CSS frontend and a Django + Django REST Framework backend. It provides dynamic property listings, authentication, booking, search filters, and real-time messaging in a production-ready setup.
 
------Features
+## ✨ Features
 
 Authentication – Secure user sign up, log in, and log out
 
@@ -36,12 +36,12 @@ Frontend – Reusable modal windows, responsive UI, and smooth navigation
 
 Backend – Django models, serializers, and REST APIs for authentication, properties, and search
 
-Deployment – Dockerized setup with PostgreSQL, Nginx, and DigitalOcean deployment
+Deployment – Dockerized setup with PostgreSQL, Nginx, and deployment on AWS and DigitalOcean
 
-🚀 Tech Stack
+## 🚀 Tech Stack
 
 Frontend: Next.js, React, Tailwind CSS
 
 Backend: Django, Django REST Framework, PostgreSQL
 
-Infrastructure: Docker, Nginx, GitHub, DigitalOcean
+Infrastructure: Docker, Nginx, GitHub, AWS, DigitalOcean
