@@ -14,23 +14,34 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+DjangoBnB
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+DjangoBnB is a full-stack Airbnb-style web application built with a Next.js/React + Tailwind CSS frontend and a Django + Django REST Framework backend. It provides dynamic property listings, authentication, booking, and real-time messaging in a production-ready setup.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-----Features
 
-## Learn More
+Authentication – Secure user sign up, log in, and log out
 
-To learn more about Next.js, take a look at the following resources:
+Property Management – Landlord dashboard to add and manage properties, property detail pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Reservations – Book and manage stays with dynamic reservation pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Favorites System – Save and browse favorite listings
 
-## Deploy on Vercel
+Messaging – Real-time conversations with WebSockets (send, receive, store, and load messages)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Search & Filters – Search by country, category, dates, guests, and property details
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Frontend – Reusable modal windows, responsive UI, and smooth navigation
+
+Backend – Django models, serializers, and REST APIs for authentication, properties, and search
+
+Deployment – Dockerized setup with PostgreSQL, Nginx, and DigitalOcean deployment
+
+🚀 Tech Stack
+
+Frontend: Next.js, React, Tailwind CSS
+
+Backend: Django, Django REST Framework, PostgreSQL
+
+Infrastructure: Docker, Nginx, GitHub, DigitalOcean
